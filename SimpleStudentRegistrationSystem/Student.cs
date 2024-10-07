@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace SimpleStudentRegistrationSystem
 {
-    public partial class Form1 : Form
+    public partial class Student : UserControl
     {
-        public Form1()
+        public Student()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void btnStudent_Click(object sender, EventArgs e)
-        {
-            student1.Visible = true;
         }
     }
 }
